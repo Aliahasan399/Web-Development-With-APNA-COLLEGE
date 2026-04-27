@@ -1,0 +1,21 @@
+#div1 {
+    height: 200px;
+    width: 70px;    
+    border: 2px solid black;
+}
+.inn{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#idiv1{
+    background-color: red;
+}
+#idiv2{
+    background-color:yellow;
+}
+#idiv3{
+    background-color:green;
+}

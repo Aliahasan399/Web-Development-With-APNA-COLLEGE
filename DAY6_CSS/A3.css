@@ -1,0 +1,5 @@
+ul {
+  display: flex;
+  gap: 30px; /* Adds space between the items */
+  list-style-type: disc; /* If you actually want to keep the bullets */
+}
