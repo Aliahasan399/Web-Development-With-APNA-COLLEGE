@@ -1,0 +1,17 @@
+#outer{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
+#outer div{
+    height: 10px;
+    width: 300px;
+}
