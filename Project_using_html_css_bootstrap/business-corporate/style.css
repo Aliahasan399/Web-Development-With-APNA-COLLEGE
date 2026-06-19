@@ -1,0 +1,84 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* ===== Section Spacing ===== */
+section {
+  padding: 5rem 0;
+}
+
+.section-title {
+  margin-bottom: 3rem;
+}
+
+/* ===== Navbar ===== */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600') center/cover no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* ===== Services ===== */
+.service-card i {
+  color: #0d6efd;
+}
+
+.service-card .card {
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* ===== About ===== */
+.about-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+/* ===== Team ===== */
+.team-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ===== Contact ===== */
+.contact-section {
+  background: #f8f9fa;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #212529;
+}
+
+.footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
