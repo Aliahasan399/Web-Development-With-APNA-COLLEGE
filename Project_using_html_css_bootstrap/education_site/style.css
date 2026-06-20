@@ -1,0 +1,246 @@
+/* ========================================
+   style.css — LearnHub Education Theme
+   Purple/Blue theme, beginner friendly
+   ======================================== */
+
+/* --- Reset & Base --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* --- Navbar --- */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* --- Hero Section --- */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.hero .search-bar {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.hero .search-bar input {
+  border-radius: 30px 0 0 30px;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1rem;
+}
+
+.hero .search-bar button {
+  border-radius: 0 30px 30px 0;
+  border: none;
+  padding: 15px 30px;
+  background: #ff6b6b;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.hero .search-bar button:hover {
+  background: #e05555;
+}
+
+/* --- Section Titles --- */
+.section-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  color: #6c757d;
+  margin-bottom: 2.5rem;
+}
+
+/* --- Category Cards --- */
+.category-card {
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: #fff;
+  cursor: default;
+}
+
+.category-card:hover {
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
+  transform: translateY(-3px);
+}
+
+.category-card i {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.category-card h6 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.category-card small {
+  color: #6c757d;
+}
+
+/* --- Course Cards --- */
+.course-card {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.course-card:hover {
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.12);
+  transform: translateY(-3px);
+}
+
+.course-img {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.badge-top {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.course-body {
+  padding: 18px;
+}
+
+.course-body .title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.course-body .instructor {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.course-body .price {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #28a745;
+}
+
+/* --- Instructor Cards --- */
+.instructor-card {
+  text-align: center;
+  padding: 30px 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  background: #fff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.instructor-card:hover {
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.12);
+  transform: translateY(-3px);
+}
+
+.instructor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.instructor-card h6 {
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #333;
+}
+
+.instructor-card small {
+  color: #6c757d;
+}
+
+.instructor-card .social i {
+  margin: 0 6px;
+  color: #6c757d;
+  font-size: 1rem;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.instructor-card .social i:hover {
+  color: #667eea;
+}
+
+/* --- Footer --- */
+footer {
+  background: #1e293b;
+  color: #cbd5e1;
+}
+
+footer a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h6 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+footer hr {
+  border-color: #334155;
+}
+
+footer .social-links a {
+  font-size: 1.2rem;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 60px 0;
+  }
+}
