@@ -1,0 +1,291 @@
+/* =============================================
+   Iron Forge Gym – Dark Theme Stylesheet
+   ============================================= */
+
+/* --- Reset & Base --- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0d0f;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* --- Navbar --- */
+.navbar {
+  background: #13161a !important;
+  border-bottom: 1px solid #2a2e35;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #f5c518 !important;
+}
+
+.navbar-brand i {
+  margin-right: 8px;
+}
+
+.navbar-dark .nav-link {
+  color: #c0c4cc !important;
+  font-weight: 500;
+  margin: 0 6px;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #f5c518 !important;
+}
+
+/* --- Hero --- */
+.hero {
+  background: #0b0d0f;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(245, 197, 24, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.15;
+}
+
+.hero h1 span {
+  color: #f5c518;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #9aa0a8;
+  max-width: 580px;
+}
+
+/* --- Buttons --- */
+.btn-cta {
+  background: #f5c518;
+  color: #0b0d0f;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.95rem;
+}
+
+.btn-cta:hover {
+  background: #e0b214;
+  color: #0b0d0f;
+}
+
+.btn-out {
+  background: transparent;
+  border: 2px solid #f5c518;
+  color: #f5c518;
+  font-weight: 600;
+  padding: 12px 36px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+}
+
+.btn-out:hover {
+  background: #f5c518;
+  color: #0b0d0f;
+}
+
+/* --- Section Titles --- */
+.sec-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f5c518;
+  margin-bottom: 0.5rem;
+}
+
+.sec-sub {
+  color: #9aa0a8;
+  max-width: 560px;
+  margin: 0 auto 3rem;
+}
+
+hr.dv {
+  border-color: #2a2e35;
+  opacity: 0.4;
+  width: 60px;
+  margin: 0.3rem auto 1rem;
+}
+
+/* --- Utility Background --- */
+.bg-sec {
+  background: #0e1217;
+}
+
+/* --- Cards (Classes & Pricing) --- */
+.dark-card {
+  background: #15191f;
+  border: 1px solid #2a2e35;
+  border-radius: 0;
+  height: 100%;
+}
+
+.dark-card:hover {
+  border-color: #f5c518;
+  transform: translateY(-4px);
+}
+
+.dark-card .card-body {
+  padding: 1.75rem;
+}
+
+.dark-card .card-title {
+  font-weight: 700;
+  color: #f5c518;
+}
+
+/* --- Class Icons --- */
+.cls-icon {
+  font-size: 2.5rem;
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+/* --- Pricing --- */
+.pr-amt {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #f5c518;
+}
+
+.pr-curr {
+  font-size: 1.2rem;
+  vertical-align: super;
+}
+
+.pr-per {
+  color: #9aa0a8;
+  font-size: 0.9rem;
+}
+
+.feat {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.feat li {
+  padding: 0.45rem 0;
+  color: #c0c4cc;
+}
+
+.feat li i {
+  color: #f5c518;
+  width: 22px;
+  margin-right: 8px;
+}
+
+.feat li.no {
+  color: #555;
+}
+
+.feat li.no i {
+  color: #555;
+}
+
+/* --- Popular / Featured Card --- */
+.pop-card {
+  border-color: #f5c518 !important;
+  position: relative;
+}
+
+.pop-badge {
+  background: #f5c518;
+  color: #0b0d0f;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 16px;
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* --- Trainers --- */
+.t-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f5c518;
+  margin: 0 auto 1rem;
+  display: block;
+  background: #2a2e35;
+}
+
+.t-name {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.2rem;
+}
+
+.t-spec {
+  color: #f5c518;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.t-bio {
+  color: #9aa0a8;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+}
+
+/* --- Footer --- */
+.footer {
+  background: #13161a;
+  border-top: 1px solid #2a2e35;
+}
+
+.footer a {
+  color: #9aa0a8;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f5c518;
+}
+
+.f-brand {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #f5c518;
+}
+
+.f-head {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  color: #f5c518;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,32 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Hero Section ===== */
+.hero-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* ===== Newsletter Section ===== */
+.newsletter-bg {
+    background: #222;
+}
+
+/* ===== Footer Links ===== */
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ===== Product Card Image ===== */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
