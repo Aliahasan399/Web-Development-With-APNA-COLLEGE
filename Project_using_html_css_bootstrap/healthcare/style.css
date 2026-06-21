@@ -1,0 +1,166 @@
+/* ===== MediCare - Style Sheet ===== */
+/* Blue / White Professional Theme      */
+
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px;
+}
+
+/* Section Titles */
+.section-title {
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  color: #6c757d;
+  margin-bottom: 2.5rem;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  color: #fff;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  opacity: 0.95;
+}
+
+.hero .btn-light {
+  background: #fff;
+  color: #0d6efd;
+  font-weight: 600;
+  padding: 12px 36px;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.hero .btn-light:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+/* Service & Doctor Cards */
+.service-card,
+.doctor-card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.service-card:hover,
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(13, 110, 253, 0.15);
+}
+
+.service-card .card-body {
+  padding: 2rem 1.5rem;
+}
+
+.service-icon {
+  font-size: 2.2rem;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+.service-card .card-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.doctor-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Appointment Form Section */
+.form-section {
+  background: #f8f9fa;
+}
+
+.appointment-form .form-control,
+.appointment-form .form-select {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.appointment-form .form-control:focus,
+.appointment-form .form-select:focus {
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+  border-color: #0d6efd;
+}
+
+.appointment-form .btn-primary {
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background: #0b1c3a;
+  color: #b0c4de;
+}
+
+.footer h5 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer a {
+  color: #b0c4de;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+
+.footer .social-icon:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 50px 0;
+    text-align: center;
+  }
+}
