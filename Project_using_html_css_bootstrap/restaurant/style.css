@@ -1,0 +1,118 @@
+/* ====== La Maison - Warm Cozy Theme ====== */
+/* Beginner-friendly, all custom CSS lives here */
+
+/* ---- Reset & Base ---- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3e2c1e;
+  background-color: #fcf8f3;
+}
+
+/* ---- Navbar ---- */
+.navbar {
+  background-color: #4a3520 !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+.nav-link {
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #f5cba7 !important;
+}
+
+/* ---- Hero ---- */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600') center/cover no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+/* ---- Section Styling ---- */
+section {
+  scroll-margin-top: 56px;
+}
+
+/* ---- About ---- */
+.about-placeholder {
+  background: #eaddcf;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #6c584c;
+  font-size: 1.2rem;
+}
+
+/* ---- Menu Section ---- */
+#menu {
+  background-color: #f5efe6;
+}
+.menu-category {
+  border-bottom: 2px solid #d4c3b3;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+.menu-category:last-child {
+  border-bottom: none;
+}
+.menu-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed #d4c3b3;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+.menu-item .price {
+  font-weight: 700;
+  color: #b33939;
+}
+
+/* ---- Reservation Form ---- */
+#reservation {
+  background-color: #f5efe6;
+}
+
+/* ---- Contact ---- */
+.map-placeholder {
+  background: #eaddcf;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #6c584c;
+  font-size: 1.2rem;
+}
+.contact-icon {
+  width: 36px;
+  color: #b33939;
+}
+
+/* ---- Footer ---- */
+footer {
+  background-color: #4a3520 !important;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #f5cba7 !important;
+}
+
+/* ---- Utility helper for cozy accent color ---- */
+.text-cozy {
+  color: #b33939;
+}
+.bg-cozy {
+  background-color: #eaddcf;
+}
